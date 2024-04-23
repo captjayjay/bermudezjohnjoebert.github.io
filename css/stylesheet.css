@@ -1,0 +1,133 @@
+body{
+	text-align: center;
+	background-color: whitesmoke;
+	background-image: url("../images/bg3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border: 2px black;
+	padding: 20px;
+}
+.wrapper{
+	width: 1000px;
+	margin: auto;
+	padding: 20px;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px lightcyan;
+    text-align: center;
+}
+.profile img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.portfolio{
+	text-align: center;
+}
+.portfolio ul h1{
+	padding: 0;
+	margin: 0;
+	color: lightcyan;
+	text-transform: bold;
+	text-size-adjust: 30px;
+}
+.name{
+	text-align: center;
+}
+.name li{
+	list-style-type: none;
+	display: inline-block;
+}
+.name ul a:hover{
+	color: black;
+	background-color: #76ABAE;
+	border: 2px solid #76ABAE;
+	border-radius: 8px;
+	margin: auto;
+	text-transform: bold;
+}
+.name ul a{
+	font-family: arial;
+	text-decoration: none;
+	color: lightcyan;
+	text-transform: bold;
+	text-size-adjust: 30px;
+	text-transform: bold;
+}
+.introduction{
+	color: black;
+    text-align: left;
+}
+.introduction h1{
+	color: lightcyan;
+}
+p{
+	color: lightcyan;
+	text-align: left;
+}
+td, th{
+	padding: 5px;
+}
+table#studies {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial;
+}
+table#studies th, table#studies td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid darkcyan;
+}
+table#studies thead th {
+    padding: 12px;
+    text-align: center;
+    background-color: #76ABAE;
+    font-weight: bold;
+    color: black;
+}
+.education{
+	background-color: #76ABAE;
+	color: black;
+	text-align: left;
+}
+tbody{
+	color: lightcyan;
+}
+.expert{
+	background-color: #76ABAE;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ul{
+	list-style-type: Square;
+}
+li{
+	color: lightcyan;
+	text-align: left;
+}
+.br{
+	background-color: #76ABAE;
+	text-align: left;
+	color: black;
+}
+.apps{
+	color:black;
+	text-align: left;
+}
